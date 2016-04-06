@@ -4,6 +4,24 @@ body{
 	font-size: large;
 }
 
+.ror{
+	float: left;
+	margin-left: 10%;
+}
+
+#center{
+	text-align: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 25%;
+}
+
+.crud{
+	float: right;
+	margin-right: 10%;
+    margin-top: 4%;
+}
+
 
 
 /*

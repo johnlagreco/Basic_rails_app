@@ -1,1 +1,3 @@
-This is John LaGreco's basic rails app homework assignment. I'm going to create a new Rails application from scratch with one controller that has at least three views. 
+I created a basic Rails application from scratch with one controller that has at least three views. 
+
+This basic rails app is an example of a user "CRUD" where you can create a user(new user), read about the user(profile/show page), update the user(edit the user) and delete the user(destroy user id/account). 

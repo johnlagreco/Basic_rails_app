@@ -1,7 +1,9 @@
-<h1>Application Home Page</h1>
+<div id="center">
+<h1>Home Page</h1>
 
 <%= link_to "New User", new_user_path %>
 
-<%= @users.each do |user| %>
+<% @users.each do |user| %>
 	<h2><%= link_to user.username, user %></h2>
 	<% end %>
+</div>

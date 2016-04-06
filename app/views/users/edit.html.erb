@@ -1,4 +1,5 @@
-<h2>Edit User Page</h2>
+<div id="center">
+<h2>Edit <%= @user.username %> Page</h2>
 <br><br>
 <%= form_for @user do |f| %>
 	<%=f.label :username %>
@@ -11,3 +12,8 @@
 <br>
 
 <%= link_to "Home Index", users_path %>
+
+<br><br>
+
+<%= link_to "Back to Profile Page", user_path %>
+</div>
